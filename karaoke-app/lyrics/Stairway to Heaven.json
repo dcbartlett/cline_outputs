@@ -1,0 +1,70 @@
+{
+  "title": "Stairway to Heaven",
+  "artist": "Led Zeppelin",
+  "verses": [
+    {
+      "direction": {
+        "text": "Gentle - folk style opening",
+        "time": 0
+      },
+      "lines": [
+        {
+          "words": [
+            {"text": "There's", "time": 2000},
+            {"text": "a", "time": 2200},
+            {"text": "lady", "time": 2400},
+            {"text": "who's", "time": 2600},
+            {"text": "sure", "time": 2800},
+            {"text": "all", "time": 3000},
+            {"text": "that", "time": 3200},
+            {"text": "glitters", "time": 3400},
+            {"text": "is", "time": 3600},
+            {"text": "gold,", "time": 3800}
+          ]
+        },
+        {
+          "words": [
+            {"text": "And", "time": 4200},
+            {"text": "she's", "time": 4400},
+            {"text": "buying", "time": 4600},
+            {"text": "a", "time": 4800},
+            {"text": "stairway", "time": 5000},
+            {"text": "to", "time": 5200},
+            {"text": "heaven.", "time": 5400}
+          ]
+        },
+        {
+          "words": [
+            {"text": "When", "time": 6000},
+            {"text": "she", "time": 6200},
+            {"text": "gets", "time": 6400},
+            {"text": "there", "time": 6600},
+            {"text": "she", "time": 6800},
+            {"text": "knows,", "time": 7000},
+            {"text": "if", "time": 7200},
+            {"text": "the", "time": 7400},
+            {"text": "stores", "time": 7600},
+            {"text": "are", "time": 7800},
+            {"text": "all", "time": 8000},
+            {"text": "closed", "time": 8200}
+          ]
+        },
+        {
+          "words": [
+            {"text": "With", "time": 8600},
+            {"text": "a", "time": 8800},
+            {"text": "word", "time": 9000},
+            {"text": "she", "time": 9200},
+            {"text": "can", "time": 9400},
+            {"text": "get", "time": 9600},
+            {"text": "what", "time": 9800},
+            {"text": "she", "time": 10000},
+            {"text": "came", "time": 10200},
+            {"text": "for.", "time": 10400}
+          ]
+        }
+      ]
+    }
+  ],
+  "totalDuration": 11000
+}

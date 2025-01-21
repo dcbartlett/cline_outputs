@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karaoke Machine</title>
+    <style>
+        #lyrics {
+            font-size: 4em;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <h1>Karaoke Songs</h1>
+    <ul id="songList"></ul>
+    <div id="lyrics"></div>
+
+    <script>
+        const songListElement = document.getElementById('songList');
+        const lyricsElement = document.getElementById('lyrics');
+
+        // Fetch and display the list of songs
+        fetch('/songs')
+            .then(response => response.json())
+            .then(songs => {
+                songs.forEach(song => {
+                    const listItem = document.createElement('li');
+                    const button = document.createElement('button');
+                    button.textContent = song;
+                    button.addEventListener('click', () => {
+                        fetch(`/lyrics/${song}`)
+                            .then(response => response.json())
+                            .then(lyrics => {
+                                lyricsElement.textContent = lyrics.lines.join('\n');
+                            });
+                    });
+                    listItem.appendChild(button);
+                    songListElement.appendChild(listItem);
+                });
+            });
+    </script>
+</body>
+</html>

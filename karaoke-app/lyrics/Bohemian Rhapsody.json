@@ -1,0 +1,48 @@
+{
+  "title": "Bohemian Rhapsody",
+  "artist": "Queen",
+  "verses": [
+    {
+      "direction": {
+        "text": "Dramatic - building slowly",
+        "time": 0
+      },
+      "lines": [
+        {
+          "words": [
+            {"text": "Is", "time": 2000},
+            {"text": "this", "time": 2300},
+            {"text": "the", "time": 2600},
+            {"text": "real", "time": 2900},
+            {"text": "life?", "time": 3200}
+          ]
+        },
+        {
+          "words": [
+            {"text": "Is", "time": 4000},
+            {"text": "this", "time": 4300},
+            {"text": "just", "time": 4600},
+            {"text": "fantasy?", "time": 4900}
+          ]
+        },
+        {
+          "words": [
+            {"text": "Caught", "time": 6000},
+            {"text": "in", "time": 6300},
+            {"text": "a", "time": 6600},
+            {"text": "landslide,", "time": 6900}
+          ]
+        },
+        {
+          "words": [
+            {"text": "No", "time": 8000},
+            {"text": "escape", "time": 8300},
+            {"text": "from", "time": 8600},
+            {"text": "reality.", "time": 8900}
+          ]
+        }
+      ]
+    }
+  ],
+  "totalDuration": 10000
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Midnight Symphony",
+  "artist": "Night Owls",
+  "verses": [
+    {
+      "direction": {
+        "text": "Moonlight - soft and mysterious",
+        "time": 0
+      },
+      "lines": [
+        {
+          "words": [
+            {"text": "In", "time": 2000},
+            {"text": "the", "time": 2300},
+            {"text": "depths", "time": 2600},
+            {"text": "of", "time": 2900},
+            {"text": "night", "time": 3200}
+          ]
+        },
+        {
+          "words": [
+            {"text": "Where", "time": 4000},
+            {"text": "shadows", "time": 4300},
+            {"text": "dance", "time": 4600},
+            {"text": "and", "time": 4900},
+            {"text": "play", "time": 5200}
+          ]
+        }
+      ]
+    }
+  ],
+  "totalDuration": 6000
+}
