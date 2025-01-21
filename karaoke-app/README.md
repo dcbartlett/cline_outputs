@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # Karaoke App
 
 An interactive karaoke application that displays synchronized lyrics with timing controls and a sleek dark theme interface.
@@ -68,7 +70,3 @@ Songs are stored in JSON format with the following structure:
 
 ## License
 MIT License
-
-
-
-
